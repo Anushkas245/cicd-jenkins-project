@@ -9,14 +9,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
+      - name: Checkout Repository
+        uses: actions/checkout@v4
 
-    - name: Run build step
-      run: echo "Building project..."
+      - name: Build
+        run: echo "Building project..."
 
-    - name: Run tests
-      run: echo "Testing project..."
+      - name: Test
+        run: echo "Testing project..."
 
-    - name: Deploy
-      run: echo "Deploying project..."
+      - name: Deploy
+        run: echo "Deploying project..."
